@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  line-height: 70px;
+  background-color: #EC715F;
+}
+
+.heading {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav-list-item {
+  size: 16px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  display: inline-block;
+}
