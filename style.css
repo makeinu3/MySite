@@ -45,3 +45,76 @@ header {
 .main-visual-text {
   font-size: 20px;
 }
+
+.portfolio {
+  background-color: #ECEFF1;
+  text-align: center;
+}
+
+.portfolio-visual {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.portfolio-title {
+  position: relative;
+  display: inline-block;
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.portfolio-title:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  bottom: -8px;
+  width: 70px;
+  height: 3px;
+  left: 25%;
+  background-color: #EC715F;
+}
+
+.portfolio-text {
+  padding: 30px 0;
+}
+
+.portfolio-image-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.portfolio-image-item {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.portfolio-image-item:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.portfolio-image-item:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px;
+}
+
+.portfolio-image-item:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+
+.portfolio-image-item:nth-child(4) {
+  background-image: url(img/webcamp.png);
+}
+
+.portfolio-image-item:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 0 10px;
+}
+
+.portfolio-image-item:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
